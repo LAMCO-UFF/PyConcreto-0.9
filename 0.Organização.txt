@@ -1,0 +1,19 @@
+Nível 0
+	-main.py: inicia a aplicação
+	-materiais.py: classe genérica para armazenamento de dados dos materiais
+
+Nível 1
+	-janela.py: cria a janela principal da aplicação onde se encontram os menus
+
+Nível 2
+	-MEC.py: cria a interface gráfica e de eventos para elemento relacionado ao menu MEC
+	-concretoPermeavel.py: cria a interface gráfica e de eventos para elemento relacionado ao menu Concreto Permeável
+
+Nível 3
+	-sistemaBinario.py: contém a calculadora voltada para Sistemas Binários
+	-permOtim.py: contém a calculadora voltada para Traço Otimizado, dentro do menu de concreto permeável
+	-subsPerm.py: contém a calculadora voltada para Substituição de materiais, dentro do menu de concreto permeável
+	-subsPermot.py: contém a calculadora voltada para Substituição de materiais a partir de uma mistura otimziada, dentro do menu de concreto permeável
+
+Não-implementados
+	-geradorGama.py: gera funções gama genéricas para compacidade de n classes com efeitos interativos
